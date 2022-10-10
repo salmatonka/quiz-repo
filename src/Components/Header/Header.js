@@ -2,7 +2,7 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header className="p-4 bg-orange-300 dark:bg-gray-800 dark:text-gray-100">
+        <header className="p-4 px-4 bg-orange-300 dark:bg-gray-800 dark:text-gray-100">
 	<div className="container flex justify-between h-16 mx-auto">
 		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 			
