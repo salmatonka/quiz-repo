@@ -6,7 +6,7 @@ const Header = () => {
 	<div className="container flex justify-between h-16 mx-auto">
 		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
 			
-<img className='w-20' src="https://e7.pngegg.com/pngimages/470/133/png-clipart-quiz-guess-word-trivia-history-quiz-game-quiz-miscellaneous-game.png" alt="" />
+        <img className='w-15 h-10 rounded-full  ' src="https://upload.wikimedia.org/wikipedia/de/0/00/Icon1080px.png" alt="" /> <span className='text-3xl font-bold'>uiz Games</span>
 
 		</a>
 		<ul className="items-stretch hidden space-x-3 md:flex">
@@ -17,7 +17,7 @@ const Header = () => {
 				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">cart</a>
 			</li>
 			<li className="flex">
-				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400">about</a>
+				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400">Charts</a>
 			</li>
 			<li className="flex">
 				<a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Link</a>
