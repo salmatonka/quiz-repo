@@ -32,12 +32,12 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to='/topics'
-              aria-label='Topics Cart'
-              title='Topics Cart'
+              to='/topicsCart'
+              aria-label='TopicsCart'
+              title='TopicsCart'
               className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
             >
-             Topics Cart
+             TopisCart
             </Link>
           </li>
           <li>
@@ -120,12 +120,12 @@ const Header = () => {
                   <ul className='space-y-4'>
                     <li>
                       <Link
-                        to='/topics'
-                        aria-label='Topics Cart '
-                        title='Topics Cart '
+                        to='/topicsCart'
+                        aria-label='TopicsCart'
+                        title='TopicsCart'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
-                        Topics Cart 
+                        TopicsCart
                       </Link>
                     </li>
                     <li>

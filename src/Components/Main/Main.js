@@ -3,13 +3,13 @@ import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
 import {Outlet, useLoaderData} from 'react-router-dom';
    
- export const CartContext = createContext([])
+ export const CartContext = createContext([]);
 
 const Main = () => {
-const topicsCart = useLoaderData()
-console.log(topicsCart);
+const carts = useLoaderData().data
+// console.log(carts);
     return (
-        <CartContext.Provider value={topicsCart}>
+        <CartContext.Provider value={carts}>
 
             <Header></Header>
             <Outlet></Outlet>
