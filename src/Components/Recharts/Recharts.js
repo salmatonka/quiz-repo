@@ -8,9 +8,10 @@ const Recharts = () => {
 
 
     return (
-        <div className='px-4  py-16 mx-auto sm:max-w-xl sm:w-50 md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
-       
-<LineChart  width={400}
+        <div className='lg:py-10 lg:px-10 '>
+           
+    <p className='pb-6 text-2xl  text-gray-900  '>Assignment Analytics</p>   
+<LineChart  width={330}
           height={300}
           data={carts}>
 
@@ -19,7 +20,7 @@ const Recharts = () => {
 <YAxis></YAxis>
 <Tooltip></Tooltip>
           </LineChart>
-
+          
        </div>
      
            
