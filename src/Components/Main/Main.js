@@ -13,7 +13,6 @@ const carts = useLoaderData().data
 
             <Header></Header>
             <Outlet></Outlet>
-
             <Footer></Footer>
    
         </CartContext.Provider>

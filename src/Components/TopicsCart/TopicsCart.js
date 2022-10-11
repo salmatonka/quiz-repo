@@ -5,6 +5,10 @@ import Cart from './Cart/Cart';
 const TopicsCart = () => {
     const carts = useContext(CartContext)
 //   console.log(carts)
+const handleAddToCart = () =>{
+    console.log('clicked');
+}
+
 
     return (
         
@@ -13,7 +17,10 @@ const TopicsCart = () => {
   
   {
       carts.map (cart =>(
-  <Cart key={cart.id} cart={cart}></Cart> 
+  <Cart key={cart.id}
+   cart={cart}
+   handleAddToCart={handleAddToCart}
+   ></Cart> 
   
       ))
   }

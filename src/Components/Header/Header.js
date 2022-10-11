@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
   return (
-    <div className=' bg-sky-600 px-4 py-5 mx-auto sm:max-w-xl md:max-w-full w-full md:px-24 lg:px-8'>
+    <div className=' bg-sky-600 px-4 py-5 mx-auto sm:max-w-xl  md:max-w-full  md:px-24 lg:px-8'>
       <div className='relative   flex items-center justify-between'>
         <Link
           to='/'
@@ -42,12 +42,22 @@ const Header = () => {
           </li>
           <li>
             <Link
-              to='/rechart'
-              aria-label='ReChart'
-              title='ReChart'
+              to='/quiz'
+              aria-label='Quiz'
+              title='Quiz'
               className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
             >
-              <p>ReChart</p>
+             Quiz
+            </Link>
+          </li>
+          <li>
+            <Link
+              to='/recharts'
+              aria-label='Recharts'
+              title='ReCharts'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+            >
+              <p>Recharts</p>
             </Link>
           </li>
           <li>
@@ -129,13 +139,23 @@ const Header = () => {
                       </Link>
                     </li>
                     <li>
+            <Link
+              to='/quiz'
+              aria-label='Quiz'
+              title='Quiz'
+              className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+            >
+             Quiz
+            </Link>
+          </li>
+                    <li>
                       <Link
-                        to='/rechart'
-                        aria-label='ReChart'
-                        title='ReChart'
+                        to='/recharts'
+                        aria-label='Recharts'
+                        title='Recharts'
                         className='font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
-                        <p> ReChart</p>
+                        <p> Recharts</p>
                       </Link>
                     </li>
                     <li>

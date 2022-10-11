@@ -1,10 +1,11 @@
 import {createBrowserRouter} from 'react-router-dom'
 import Blog from '../Components/Blog/Blog';
-import ChartList from '../Components/ChartList/ChartList';
+
 import Home from '../Components/Home/Home';
 import Main from '../Components/Main/Main';
 import Error from '../Components/Error/Error';
 import TopicsCart from '../Components/TopicsCart/TopicsCart';
+import Recharts from '../Components/Recharts/Recharts';
 
 
 const router = createBrowserRouter([
@@ -24,12 +25,15 @@ const router = createBrowserRouter([
         element:<Home></Home>,  
     },
     {
-        path:'/blog',
-        element:<Blog></Blog>,  
-    },
-    {
         path:'/topicsCart',
         element:<TopicsCart></TopicsCart>,  
+    },
+    {
+        path:'/recharts',
+        element:<Recharts></Recharts>,  
+    },{
+        path:'/blog',
+        element:<Blog></Blog>,  
     }
   ]
   },
