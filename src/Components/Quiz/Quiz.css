@@ -1,0 +1,16 @@
+.container{
+  
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.questionClass{
+    background-color: aliceblue;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 10px auto;
+min-width: 400px;
+
+
+}
